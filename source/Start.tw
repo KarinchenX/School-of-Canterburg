@@ -1,0 +1,12 @@
+:: StoryData
+{
+        "ifid": "1C0339A6-9BE3-4489-B8D6-E41A0DCCCA8A",
+        "format": "SugarCube",
+        "format-version": "2.30.0"
+}
+
+::StoryTitle
+Go to the Store!
+
+::Start
+<<include [[Menu]]>>

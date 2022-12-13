@@ -1,0 +1,4 @@
+::Menu
+Welcome to the Game!
+
+<<link[[Here is a link to the File in Folder|FolderStart]]>><</link>>
