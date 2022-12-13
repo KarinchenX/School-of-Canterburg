@@ -1,1 +1,12 @@
 ::TEMP
+/*Your Character */
+<<set $player to {
+"name" : "Alice",
+"money" : 0
+}>>
+
+/*Your Crush */
+<<set $crush to {
+"name" : "Peter",
+"hasBeenVisited" : 0
+}>>

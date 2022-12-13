@@ -1,0 +1,20 @@
+::Intro_1
+It is quite early in the 
+... will do notes for now 
+-ASK FOR NAME
+-ASK FOR CRUSH NAME
+
+- wake up
+- guy next door 
+- works at Store
+- visit him for every occasion
+- get up from your bed 
+
+<label>What is your name? <<textbox "$pname?" Alice>></label>
+What gender are you? <nobr>
+<<listbox "$pgender" autoselect>>
+	<<option "male">>
+	<<option "female">>
+<</listbox>></nobr>
+<br>
+<label>What is your crushes name? <<textbox "$cname?" Peter>></label><br>
