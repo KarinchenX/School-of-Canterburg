@@ -1,5 +1,5 @@
 ::Intro_2
-<<set $uiname to $pname>>
-Hello $pname,
+Hello $player.name,
 lovely that you arrived in Rivertown (Generic Name I know, but what can you do?)
-<label>What is your name? <<textbox "$pname?" Alice IntroductionDone>></label>
+
+<<include [[Bedroom]]>>

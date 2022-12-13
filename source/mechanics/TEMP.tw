@@ -2,11 +2,12 @@
 /*Your Character */
 <<set $player to {
 "name" : "Alice",
+"gender" : "female",
 "money" : 0
 }>>
 
 /*Your Crush */
 <<set $crush to {
 "name" : "Peter",
-"hasBeenVisited" : 0
+"hasBeenVisited" : false
 }>>

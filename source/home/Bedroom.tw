@@ -2,4 +2,12 @@
 You made it! 
 Woohoo!
 
-<<link[[Back to the Start|Start]]>><</link>>
+//!!DEBUG!!//
+$player.name
+$player.gender
+$player.money
+
+$crush.name
+$crush.hasBeenVisited
+
+<<link[[Back to the Menu|Menu]]>><</link>>

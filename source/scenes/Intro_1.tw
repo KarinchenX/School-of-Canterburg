@@ -8,13 +8,17 @@ It is quite early in the
 - guy next door 
 - works at Store
 - visit him for every occasion
-- get up from your bed 
 
-<label>What is your name? <<textbox "$pname?" Alice>></label>
+
+
+<label>What is your name? <<textbox "$player.name" Alice>></label>
 What gender are you? <nobr>
-<<listbox "$pgender" autoselect>>
+<<listbox "$player.gender" autoselect>>
 	<<option "male">>
 	<<option "female">>
 <</listbox>></nobr>
 <br>
-<label>What is your crushes name? <<textbox "$cname?" Peter>></label><br>
+<label>What is your crushes name? <<textbox "$crush.name" Peter>></label><br>
+
+
+When you are done, [[wake up|Intro_2]]
