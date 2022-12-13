@@ -4,9 +4,13 @@ Hello and Welcome to the Game!
 In here you will visit the Store down the Street.
 I dunno buy something at your crushes store... 
 
-/*
+
 $player.name
+$player.gender
 $player.money
-*/
+
+$crush.name
+$crush.hasBeenVisited
+
 
 <<link[[Let's Start|Intro_1]]>><</link>>
