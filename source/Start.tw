@@ -5,9 +5,13 @@
         "format-version": "2.30.0"
 }
 
-::StoryTitle
-Go to the Store!
+:: StoryTitle
+School of Canterbury
 
-::Start
-Click here to Start [[Start|Menu]]
-<<include [[TEMP]]>>
+:: Script
+Config.passages.nobr = true;
+
+:: Start
+Click here to [[Start|Menu]]<br>
+<<silently>><<include [[Init]]>><</silently>>
+Test
