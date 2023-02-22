@@ -42,7 +42,7 @@ Todo-Abriged:
     - one of three characters depending on which house
 
 Versions: 
-0.00a
+0.00a - 
 
 0.0 - nothing done edition
 - created first file structure, arrays, user input, pages/rooms, initialization
